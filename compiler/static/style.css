@@ -1,0 +1,14 @@
+#head{
+    text-align: center;
+}
+.content{
+    display:flex;
+    width:800px;
+    height:500px;
+    margin:auto;
+    text-align: center;
+}
+.inner{
+    display:flex;
+    flex-direction: row;
+}

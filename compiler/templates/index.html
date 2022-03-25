@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Compiler</title>
+    <link rel="stylesheet" href={{ url_for('static',filename='style.css' ) }}>
+</head>
+
+<body>
+    <h1 id="head">Online Compiler</h1>
+    <div class="content">
+        <form action="/runCode" method="post">
+            <textarea name="code" rows="18" cols="65" placeholder="Code">{{code}}</textarea>
+            <div class="inner">
+                <textarea name="input" rows="10" cols="20" placeholder="Input">{{input}}</textarea>
+                <textarea name="output" rows="10" cols="40" placeholder="Output">{{output}}</textarea>
+            </div>
+            <br>
+            <input type="submit" value="Run" />
+        </form>
+    </div>
+</body>
+
+</html>
