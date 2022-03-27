@@ -1,0 +1,138 @@
+03/27/2022 10:15:48 AM Logger Initiated
+03/27/2022 10:15:49 AM 127.0.0.1 - - [27/Mar/2022 10:15:49] "GET / HTTP/1.1" 200 -
+03/27/2022 10:15:49 AM 127.0.0.1 - - [27/Mar/2022 10:15:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+03/27/2022 10:15:49 AM 127.0.0.1 - - [27/Mar/2022 10:15:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+03/27/2022 10:16:38 AM Input Data Received
+03/27/2022 10:16:38 AM 2203101638028029-101 Starting Execution
+03/27/2022 10:16:38 AM Created file 2203101638028029-101cpp at codes/2203101638028029-101.cpp
+03/27/2022 10:16:38 AM Getting CMD Arguments for the submission
+03/27/2022 10:16:38 AM CMD Arguments: g++ -o 2203101638028029-101 codes/2203101638028029-101.cpp
+03/27/2022 10:16:38 AM Compiling codes/2203101638028029-101.cpp
+03/27/2022 10:16:43 AM File Compiled with return code 0
+03/27/2022 10:16:43 AM Executing the compiled file with a time limit of 1.0
+03/27/2022 10:16:43 AM Executing the file
+03/27/2022 10:16:43 AM {'2203101638028029-101': 'BoomBox', '2203101638028029-101v': 'Code ok'}
+03/27/2022 10:16:43 AM 127.0.0.1 - - [27/Mar/2022 10:16:43] "POST /runCode HTTP/1.1" 200 -
+03/27/2022 10:16:43 AM 127.0.0.1 - - [27/Mar/2022 10:16:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+03/27/2022 10:16:53 AM Input Data Received
+03/27/2022 10:16:53 AM 2203101653472069-101 Starting Execution
+03/27/2022 10:16:53 AM Created file 2203101653472069-101cpp at codes/2203101653472069-101.cpp
+03/27/2022 10:16:53 AM Getting CMD Arguments for the submission
+03/27/2022 10:16:53 AM CMD Arguments: g++ -o 2203101653472069-101 codes/2203101653472069-101.cpp
+03/27/2022 10:16:53 AM Compiling codes/2203101653472069-101.cpp
+03/27/2022 10:16:53 AM File Compiled with return code 1
+03/27/2022 10:16:53 AM Error in Compilation : codes/2203101653472069-101.cpp: In function ‘int main()’:
+codes/2203101653472069-101.cpp:3:21: error: expected ‘;’ before ‘return’
+    3 | std::cout<<"BoomBox"
+      |                     ^
+      |                     ;
+    4 | return 0;
+      | ~~~~~~               
+
+03/27/2022 10:16:53 AM 127.0.0.1 - - [27/Mar/2022 10:16:53] "[35m[1mPOST /runCode HTTP/1.1[0m" 500 -
+03/27/2022 10:16:54 AM 127.0.0.1 - - [27/Mar/2022 10:16:54] "GET /runCode?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+03/27/2022 10:16:54 AM 127.0.0.1 - - [27/Mar/2022 10:16:54] "GET /runCode?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+03/27/2022 10:16:54 AM 127.0.0.1 - - [27/Mar/2022 10:16:54] "GET /runCode?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+03/27/2022 10:16:54 AM 127.0.0.1 - - [27/Mar/2022 10:16:54] "GET /runCode?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+03/27/2022 10:16:54 AM 127.0.0.1 - - [27/Mar/2022 10:16:54] "GET /runCode?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+03/27/2022 10:17:22 AM  * Detected change in '/mnt/d/linux/Compiler/compiler/execution.py', reloading
+03/27/2022 10:18:03 AM Logger Initiated
+03/27/2022 10:18:03 AM Input Data Received
+03/27/2022 10:18:03 AM 2203101803874812-101 Starting Execution
+03/27/2022 10:18:03 AM Created file 2203101803874812-101cpp at codes/2203101803874812-101.cpp
+03/27/2022 10:18:03 AM Getting CMD Arguments for the submission
+03/27/2022 10:18:03 AM CMD Arguments: g++ -o 2203101803874812-101 codes/2203101803874812-101.cpp
+03/27/2022 10:18:03 AM Compiling codes/2203101803874812-101.cpp
+03/27/2022 10:18:04 AM File Compiled with return code 1
+03/27/2022 10:18:04 AM Error in Compilation : codes/2203101803874812-101.cpp: In function ‘int main()’:
+codes/2203101803874812-101.cpp:3:21: error: expected ‘;’ before ‘return’
+    3 | std::cout<<"BoomBox"
+      |                     ^
+      |                     ;
+    4 | return 0;
+      | ~~~~~~               
+
+03/27/2022 10:18:04 AM 127.0.0.1 - - [27/Mar/2022 10:18:04] "POST /runCode HTTP/1.1" 200 -
+03/27/2022 10:18:04 AM 127.0.0.1 - - [27/Mar/2022 10:18:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+03/27/2022 10:18:09 AM Input Data Received
+03/27/2022 10:18:09 AM 2203101809740388-101 Starting Execution
+03/27/2022 10:18:09 AM Created file 2203101809740388-101cpp at codes/2203101809740388-101.cpp
+03/27/2022 10:18:09 AM Getting CMD Arguments for the submission
+03/27/2022 10:18:09 AM CMD Arguments: g++ -o 2203101809740388-101 codes/2203101809740388-101.cpp
+03/27/2022 10:18:09 AM Compiling codes/2203101809740388-101.cpp
+03/27/2022 10:18:10 AM File Compiled with return code 0
+03/27/2022 10:18:10 AM Executing the compiled file with a time limit of 1.0
+03/27/2022 10:18:10 AM Executing the file
+03/27/2022 10:18:10 AM {'2203101809740388-101': 'BoomBox', '2203101809740388-101v': 'Code ok'}
+03/27/2022 10:18:10 AM 127.0.0.1 - - [27/Mar/2022 10:18:10] "POST /runCode HTTP/1.1" 200 -
+03/27/2022 10:18:10 AM 127.0.0.1 - - [27/Mar/2022 10:18:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+03/27/2022 10:18:25 AM Input Data Received
+03/27/2022 10:18:25 AM 2203101825596364-101 Starting Execution
+03/27/2022 10:18:25 AM Created file 2203101825596364-101cpp at codes/2203101825596364-101.cpp
+03/27/2022 10:18:25 AM Getting CMD Arguments for the submission
+03/27/2022 10:18:25 AM CMD Arguments: g++ -o 2203101825596364-101 codes/2203101825596364-101.cpp
+03/27/2022 10:18:25 AM Compiling codes/2203101825596364-101.cpp
+03/27/2022 10:18:26 AM File Compiled with return code 0
+03/27/2022 10:18:26 AM Executing the compiled file with a time limit of 1.0
+03/27/2022 10:18:27 AM {}
+03/27/2022 10:18:27 AM 127.0.0.1 - - [27/Mar/2022 10:18:27] "POST /runCode HTTP/1.1" 200 -
+03/27/2022 10:18:27 AM 127.0.0.1 - - [27/Mar/2022 10:18:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+03/27/2022 10:18:56 AM Input Data Received
+03/27/2022 10:18:56 AM 2203101856080256-101 Starting Execution
+03/27/2022 10:18:56 AM Created file 2203101856080256-101cpp at codes/2203101856080256-101.cpp
+03/27/2022 10:18:56 AM Getting CMD Arguments for the submission
+03/27/2022 10:18:56 AM CMD Arguments: g++ -o 2203101856080256-101 codes/2203101856080256-101.cpp
+03/27/2022 10:18:56 AM Compiling codes/2203101856080256-101.cpp
+03/27/2022 10:18:56 AM File Compiled with return code 0
+03/27/2022 10:18:56 AM Executing the compiled file with a time limit of 1.0
+03/27/2022 10:18:56 AM Executing the file
+03/27/2022 10:18:56 AM 127.0.0.1 - - [27/Mar/2022 10:18:56] "[35m[1mPOST /runCode HTTP/1.1[0m" 500 -
+03/27/2022 10:18:56 AM 127.0.0.1 - - [27/Mar/2022 10:18:56] "GET /runCode?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+03/27/2022 10:18:56 AM 127.0.0.1 - - [27/Mar/2022 10:18:56] "GET /runCode?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+03/27/2022 10:18:56 AM 127.0.0.1 - - [27/Mar/2022 10:18:56] "GET /runCode?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+03/27/2022 10:18:56 AM 127.0.0.1 - - [27/Mar/2022 10:18:56] "GET /runCode?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+03/27/2022 10:18:56 AM 127.0.0.1 - - [27/Mar/2022 10:18:56] "GET /runCode?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+03/27/2022 10:21:26 AM Input Data Received
+03/27/2022 10:21:26 AM 2203102126439584-101 Starting Execution
+03/27/2022 10:21:26 AM Created file 2203102126439584-101cpp at codes/2203102126439584-101.cpp
+03/27/2022 10:21:26 AM Getting CMD Arguments for the submission
+03/27/2022 10:21:26 AM CMD Arguments: g++ -o 2203102126439584-101 codes/2203102126439584-101.cpp
+03/27/2022 10:21:26 AM Compiling codes/2203102126439584-101.cpp
+03/27/2022 10:21:26 AM File Compiled with return code 0
+03/27/2022 10:21:26 AM Executing the compiled file with a time limit of 1.0
+03/27/2022 10:21:26 AM Executing the file
+03/27/2022 10:21:26 AM 127.0.0.1 - - [27/Mar/2022 10:21:26] "[35m[1mPOST /runCode HTTP/1.1[0m" 500 -
+03/27/2022 10:21:27 AM 127.0.0.1 - - [27/Mar/2022 10:21:27] "GET /runCode?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+03/27/2022 10:21:27 AM 127.0.0.1 - - [27/Mar/2022 10:21:27] "GET /runCode?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+03/27/2022 10:21:27 AM 127.0.0.1 - - [27/Mar/2022 10:21:27] "GET /runCode?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+03/27/2022 10:21:27 AM 127.0.0.1 - - [27/Mar/2022 10:21:27] "GET /runCode?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+03/27/2022 10:21:27 AM 127.0.0.1 - - [27/Mar/2022 10:21:27] "GET /runCode?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+03/27/2022 10:21:36 AM  * Detected change in '/mnt/d/linux/Compiler/compiler/execution.py', reloading
+03/27/2022 10:21:44 AM Logger Initiated
+03/27/2022 10:21:44 AM Input Data Received
+03/27/2022 10:21:44 AM 2203102144930122-101 Starting Execution
+03/27/2022 10:21:44 AM Created file 2203102144930122-101cpp at codes/2203102144930122-101.cpp
+03/27/2022 10:21:44 AM Getting CMD Arguments for the submission
+03/27/2022 10:21:44 AM CMD Arguments: g++ -o 2203102144930122-101 codes/2203102144930122-101.cpp
+03/27/2022 10:21:44 AM Compiling codes/2203102144930122-101.cpp
+03/27/2022 10:21:45 AM File Compiled with return code 0
+03/27/2022 10:21:45 AM Executing the compiled file with a time limit of 1.0
+03/27/2022 10:21:45 AM Executing the file
+03/27/2022 10:21:45 AM 127.0.0.1 - - [27/Mar/2022 10:21:45] "[35m[1mPOST /runCode HTTP/1.1[0m" 500 -
+03/27/2022 10:21:45 AM 127.0.0.1 - - [27/Mar/2022 10:21:45] "GET /runCode?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+03/27/2022 10:21:45 AM 127.0.0.1 - - [27/Mar/2022 10:21:45] "GET /runCode?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+03/27/2022 10:21:45 AM 127.0.0.1 - - [27/Mar/2022 10:21:45] "GET /runCode?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+03/27/2022 10:21:45 AM 127.0.0.1 - - [27/Mar/2022 10:21:45] "GET /runCode?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+03/27/2022 10:21:45 AM 127.0.0.1 - - [27/Mar/2022 10:21:45] "GET /runCode?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+03/27/2022 10:22:40 AM Input Data Received
+03/27/2022 10:22:40 AM 2203102240288272-101 Starting Execution
+03/27/2022 10:22:40 AM Created file 2203102240288272-101cpp at codes/2203102240288272-101.cpp
+03/27/2022 10:22:40 AM Getting CMD Arguments for the submission
+03/27/2022 10:22:40 AM CMD Arguments: g++ -o 2203102240288272-101 codes/2203102240288272-101.cpp
+03/27/2022 10:22:40 AM Compiling codes/2203102240288272-101.cpp
+03/27/2022 10:22:40 AM File Compiled with return code 0
+03/27/2022 10:22:40 AM Executing the compiled file with a time limit of 1.0
+03/27/2022 10:22:40 AM Executing the file
+03/27/2022 10:22:40 AM {'2203102240288272-101': '1 0', '2203102240288272-101v': 'Code ok'}
+03/27/2022 10:22:40 AM 127.0.0.1 - - [27/Mar/2022 10:22:40] "POST /runCode HTTP/1.1" 200 -
+03/27/2022 10:22:40 AM 127.0.0.1 - - [27/Mar/2022 10:22:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
