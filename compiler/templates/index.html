@@ -11,14 +11,20 @@
 
 <body>
     <h1 id="head">Online Compiler</h1>
+    <span id="verdict"> Verdict : {{verdict}} </span><br>
     <div class="content">
         <form action="/runCode" method="post">
             <textarea name="code" rows="18" cols="65" placeholder="Code">{{code}}</textarea>
             <div class="inner">
-                <textarea name="input" rows="10" cols="20" placeholder="Input">{{input}}</textarea>
+                <textarea name="input" rows="10" cols="20" placeholder="Input">{{input_data}}</textarea>
                 <textarea name="output" rows="10" cols="40" placeholder="Output">{{output}}</textarea>
             </div>
             <br>
+            <input type="hidden" value="1" name="time_limit"/>
+            <input type="hidden" value="101" name="user_id"/> 
+            <input type="hidden" value="cpp" name="lang"/> 
+
+
             <input type="submit" value="Run" />
         </form>
     </div>
